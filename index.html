@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Ugly Webby</title>
+        <link rel="stylesheet" href="bootstrap.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
@@ -23,10 +24,10 @@
 
         <hr>
 
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Source</a></li>
+        <ul class="alert alert-secondary">
+          <li class="alert alert-primary"><a href="">Home</a></li>
+          <li class="alert alert-primary"><a href="">About</a></li>
+          <li class="alert alert-success"><a href="">Source</a></li>
         </ul>
 
         <hr>
@@ -63,11 +64,14 @@
 
         <hr>
 
-        <div>
-          <h3>Triceratops</h3>
-          <img src="assets/triceratops.jpg">
-          Triceratops had... horns, I guess?
+        <div class=card style="width: 15rem;">
+          <div class=card-body>
+          <h3 class=card-title>Triceratops</h3>
+          <img src="assets/triceratops.jpg" class=card-img-top>
+          <p class=card-text>Triceratops had... horns, I guess?</p>
+          </div>
         </div>
+        
         <div>
           <h3>T-Rex</h3>
           <img src="assets/t-rex.jpg">
